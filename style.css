@@ -1,0 +1,70 @@
+header{
+    background-color: rgb(244, 167, 24);      
+    background-image: url(https://img.desktopwallpapers.ru/sport/pics/wide/1920x1080/dca6906b571ee647b2f5313ff118bf2d.jpg);                   
+    background-size: cover;                    
+    background-repeat: repeat;                 
+    background-position: top;      
+    font-size: 20px;                           
+    font-weight: bold;                         
+    font-family: "Impact";                     
+    font-style: italic;                        
+    color: rgb(255, 0, 0);                              
+    text-shadow: rgb(200, 255, 0) 2px 5px 5px;            
+    text-align: center;    
+    height: 300px;  
+    padding-top: 20px;
+}
+main{
+    background-color: blueviolet;
+    color: black;
+    font-size:20px ;
+    height: 500px;
+    display: flex;
+    justify-content:center ;
+}
+.left{
+    background-color: blue;
+    float:left ;
+    width:50% ;
+    height:400px ;
+    padding: 10PX;
+    color: aliceblue;
+    text-align: justify;
+}
+.right{
+    background-color: chartreuse;
+    float:right ;
+    width:50% ;
+    height:400px;
+   } 
+.container{
+    width:80% ;
+    height:100% ;
+    display: flex;
+
+   }
+footer{
+    background-color: chartreuse;
+    color: black;
+    font-size: 20px;
+    height: 100%;
+    display: flex;
+}
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.f_left img{
+    padding-top: 20px;
+}
+.f_right{
+    width: 70%;
+    float: right;
+}
+
+.f_right img{
+    width: 100px; 
+}
+
